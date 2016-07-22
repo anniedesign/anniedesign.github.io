@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pearl Castle Café</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/AWLogo1.png" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Text+Me+One' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/projects.css">
+        <link rel="stylesheet" type="text/css" href="css/animsition.css">
+    </head>
+    <body>
+        <header>
+            <div class="animsition">
+            <a href="index.html" class="animsition-link">
+                <img class="logo" src="img/AWLogo.png" alt="Annie Wang">
+            </a>
+            </div>
+        </header>
+
+                <div class="item">
+                <div class="project">
+                    <h2>pearl castle café promo</h2>
+                    <hr>
+                    <p>I created a promotion poster for a restaurant called Pearl Castle Café celebrating their 2 year anniversary. This design portrays a clean and simple look while highlighting the important information. I utilized icons to establish hierarchy. This way it helps guide the customers of what to look first. For example, if they are a customer of two, the customers would see the two people icon and read what is there.</p>
+                </div>
+                <div class="PC">
+                    <img src="img/PC_Promotion.jpg" alt="Pearl Castle Promotion" />
+                </div>
+
+                <div class="project">
+                    <h2>pearl castle café special lunch menu</h2>
+                    <hr>
+                    <p>The goal was to create a special lunch menu for Pearl Castle Café, a Taiwanese restaurant. The client wanted the menus to look bright and summer like. Since it was a Taiwanese restaurant, there needs to be a mandarin version of the menu as well. However I think if both english and mandarin were all on one page it would look to clustered, thus I made them separate.</p>
+                </div>
+                <div class="PC">
+                    <img src="img/LunchMenu(English).png" alt="Pearl Castle Special Lunch Menu (English Version)" />
+                </div>
+                <div class="PC">
+                    <img src="img/LunchMenu(Mandarin).png" alt="Pearl Castle Special Lunch Menu (Mandarin Version)" />
+                </div>
+
+                <div class="project">
+                    <h2>pearl castle café happy hour</h2>
+                    <hr>
+                    <p>This project was another poster made for Pearl Castle Café. The poster was designed for their happy hour.</p>
+                </div>
+                <div class="PC">
+                    <img src="img/PearlCastleHappyHour.png" alt="Pearl Castle Happy Hour" />
+                </div>
+
+                <p><strong class="strong">role: </strong>Graphic Design</p>
+                <p><strong class="strong">client: </strong>Pearl Castle Café</p>
+                <p><strong class="strong">year: </strong>2015</p>
+                </div>
+
+        <div>
+            <div class="btnpos">
+                    <a class="btn" href="index.html#works">
+                        view more works
+                    </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="contact">
+            <a href="https://www.behance.net/AnnieWang" onclick="target='_blank'">
+                <img src="img/behance.png" height="50" width="50" alt="Behance">
+            </a>
+            <a href="https://ca.linkedin.com/pub/annie-wang/b6/4a6/b60" onclick="target='_blank'">
+                <img src="img/linkedin.png" height="50" width="50" alt="Linkedin">
+            </a>
+            <a href="https://instagram.com/annie_ywang/" onclick="target='_blank'">
+                <img src="img/instagram.png" height="50" width="50" alt="Instagram">
+            </a>
+            <a href="https://plus.google.com/+AnnieWang92" onclick="target='_blank'">
+                <img src="img/google+.png" height="50" width="50" alt="Google+">
+            </a>
+            <p>annie.wang_@hotmail.com</p>
+            <p class="copyright">Copyright © Annie Wang, 2016</p>
+        </div>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="js/jquery.animsition.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+  
+            $(".animsition").animsition({
+  
+            inClass               :   'flip-in-y',
+            outClass              :   'flip-out-y',
+            inDuration            :    1500,
+            outDuration           :    800,
+            linkElement           :   '.animsition-link',
+            // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+            loading               :    true,
+            loadingParentElement  :   'body', //animsition wrapper element
+            loadingClass          :   'animsition-loading',
+            unSupportCss          : [ 'animation-duration',
+                              '-webkit-animation-duration',
+                              '-o-animation-duration'
+                            ],
+            //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+            //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    
+            overlay               :   false,
+    
+            overlayClass          :   'animsition-overlay-slide',
+            overlayParentElement  :   'body'
+            });
+        });
+        </script>
+
+    </body>
+</html>

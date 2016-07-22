@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shattered</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/AWLogo1.png" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Text+Me+One' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/projects.css">
+        <link rel="stylesheet" type="text/css" href="css/animsition.css">
+    </head>
+    <body>
+        <header>
+            <div class="animsition">
+            <a href="index.html" class="animsition-link">
+                <img class="logo" src="img/AWLogo.png" alt="Annie Wang">
+            </a>
+            </div>
+        </header>
+
+                <div class="item">
+                <div class="project">
+                    <h2>shattered</h2>
+                    <hr>
+                    <p>Shattered is a <strong>kinectic sculpture</strong> that gives the perception of shattering glass when moving to discourage users from wasting energy in the building. I created the poster which was meant to show what our sculpture does along with the different configurations we have created. The poster also shows the exploded view of each configurations and the parts we have used to create our kinectic sculpture "Shattered". I have also created a short cinematographic video showing the movements of the sculpture.</p>
+                </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LWyzrYUPIo8" frameborder="0" allowfullscreen></iframe>
+                    <img src="img/Shattered1.jpg" alt="Shattered" />
+                    <img src="img/Shattered2.jpg" alt="Shattered" />
+
+                    <div class="project">
+                    <h2>presedents</h2>
+                    <hr>
+                    <p>I designed the slides to our project. Here are our presedents: Woodskin by MammaFotogramma and Wooden Carpet by Elisa Strozyk.</p>
+                    </div>
+                    <img src="img/presedents1.jpg" alt="Woodskin" />
+                    <img src="img/presedents2.jpg" alt="Wooden Carpet" />
+
+                    <p><strong class="strong">role: </strong>Graphic Design / 3D Craft</p>
+                    <p> <strong class="strong">collaborators: </strong>Winnie Ku & Flora Wu</p>
+                    <p> <strong class="strong">year: </strong>April 2014</p>
+
+                </div>
+
+        <div>
+            <div class="btnpos">
+                    <a class="btn" href="index.html#works">
+                        view more works
+                    </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="contact">
+            <a href="https://www.behance.net/AnnieWang" onclick="target='_blank'">
+                <img src="img/behance.png" height="50" width="50" alt="Behance">
+            </a>
+            <a href="https://ca.linkedin.com/pub/annie-wang/b6/4a6/b60" onclick="target='_blank'">
+                <img src="img/linkedin.png" height="50" width="50" alt="Linkedin">
+            </a>
+            <a href="https://instagram.com/annie_ywang/" onclick="target='_blank'">
+                <img src="img/instagram.png" height="50" width="50" alt="Instagram">
+            </a>
+            <a href="https://plus.google.com/+AnnieWang92" onclick="target='_blank'">
+                <img src="img/google+.png" height="50" width="50" alt="Google+">
+            </a>
+            <p>annie.wang_@hotmail.com</p>
+            <p class="copyright">Copyright © Annie Wang, 2016</p>
+        </div>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="js/jquery.animsition.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+  
+            $(".animsition").animsition({
+  
+            inClass               :   'flip-in-y',
+            outClass              :   'flip-out-y',
+            inDuration            :    1500,
+            outDuration           :    800,
+            linkElement           :   '.animsition-link',
+            // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+            loading               :    true,
+            loadingParentElement  :   'body', //animsition wrapper element
+            loadingClass          :   'animsition-loading',
+            unSupportCss          : [ 'animation-duration',
+                              '-webkit-animation-duration',
+                              '-o-animation-duration'
+                            ],
+            //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+            //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    
+            overlay               :   false,
+    
+            overlayClass          :   'animsition-overlay-slide',
+            overlayParentElement  :   'body'
+            });
+        });
+        </script>
+
+    </body>
+</html>
