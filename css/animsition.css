@@ -8,7 +8,6 @@
 
 .animsition,
 .animsition-overlay {
-/*  width: 70%;*/
   position: relative;
   opacity: 1;
   display: inline-block;
@@ -2543,4 +2542,3 @@
        -o-animation-name: overlay-slide-out-right;
           animation-name: overlay-slide-out-right;
 }
-/*# sourceMappingURL=animsition.css.map */
