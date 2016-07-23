@@ -169,21 +169,26 @@
             }
 
             .contactText {
+                font-family: 'Source Sans Pro', sans-serif;
                 font-size: 45px;
+                color: #7B95AC;
                 margin-top: 3em;
                 padding-left: 0;
-                font-weight: 300;
+                font-weight: 600;
                 letter-spacing: 0;
                 text-transform: none;
                 -webkit-font-smoothing: antialiased;
             }
 
             hr {
-                width: 5%;
+                width: 7%;
                 margin-left: auto;
                 margin-right: auto;
-                margin-top: 1.3em;
-                margin-bottom: 1.3em;
+                margin-top: 0.3em;
+                margin-bottom: 0.3em;
+                color: #7B95AC;
+                background-color: #7B95AC;
+                height: 3px;
             }
 
             .icons {
@@ -466,29 +471,32 @@
             }
 
             .contactmsg{
+                font-family: 'Source Sans Pro', sans-serif;
                 font-size: 18px;
-            }
-
-            .mail {
-                margin-top: 1.5em;
                 color: #ACA08D;
-            }
-
-            .mail p{
-                margin-top: 0.5em;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;;
                 font-weight: 300;
-                margin-bottom: 0.5em;
-                color: #666666;
                 -webkit-font-smoothing: antialiased;
             }
 
-            .mail img{
+            .email {
+                font-family: 'Source Sans Pro', sans-serif;
+                color: #ACA08D;
                 margin-top: 0.5em;
+                margin-bottom: 3em;
+            }
+
+            .longline {
+                width: 55%;
+                opacity: 0.5;
+                color: #666666;
+                background-color: #666666;
+                height: 2px;
             }
 
             .socialmedia {
                 margin-top: 1em;
-                margin-bottom: 2em;
             }
 
             .socialmedia a {
@@ -627,16 +635,10 @@
             }
 
             .contactmsg{
-                width: 75%;
+                width: 70%;
                 margin: auto;
-            }
-
-            .mail {
-                margin-top: 0;
-            }
-
-            .socialmedia {
-                margin-bottom: 1em;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
             }
 
             #backtotop, .backtotop {
