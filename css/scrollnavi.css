@@ -556,6 +556,7 @@
 
             #home{
                 line-height: 50px;
+                height: 773px;
             }
 
              #home h1 {
@@ -578,13 +579,13 @@
             }
 
             .interestLogos {
-                width: 40%;
+                width: 30%;
                 line-height: 40px;
                 margin-top: 0.5em;
             }
 
             .title {
-                font-size: 10px;
+                font-size: 8px;
                 padding: 0;
                 margin-bottom: 0.5em;
                 line-height: 25px;
