@@ -384,13 +384,12 @@
 
             .content {
                 background: #B6A2C6;
-                display: table;
                 color: white;
-                height: 215px;
                 left: 0;
-                position: absolute;
                 top: 0;
+                position: absolute;
                 width: 100%;
+                height: 100%;
                 z-index: 100;
                 opacity: 0;
                 -webkit-transition: opacity 500ms;
@@ -399,31 +398,20 @@
                 transition: opacity 500ms;
             }
 
-            .sbox1 .content {
-                height: 115px;
-            }
-
             .sbox2 .content {
                 background: #A6E8FA;
-                height: 85px;
             }
 
             .row1 .content {
                 background: #A2C6C4;
-                height: 355px;
             }
 
             .row2 .content {
                 background: #A2C6C4;
-                height: 355px;
             }
 
             .row3 .content {
                 background: #A2C6C4;
-            }
-
-            .row6 .content {
-                height: 210px;
             }
 
             .row7 .content {
@@ -444,9 +432,14 @@
             }
 
             .content div {
-                display: table-cell;
-                text-align: center;
-                vertical-align: middle;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 30%;
+                margin: auto;
             }
 
             .column1 .sbox1:hover .content,
