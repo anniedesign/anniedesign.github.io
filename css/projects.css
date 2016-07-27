@@ -50,10 +50,13 @@
                 font-family: 'Carrois Gothic SC', sans-serif;
                 font-size: 28px;
                 letter-spacing: 0.1em;
+                margin-bottom: 0.3em;
             }
 
             hr {
                 width: 5%;
+                border-style: solid;
+                margin-bottom:2em;
             }
 
             .project p {
