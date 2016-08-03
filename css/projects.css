@@ -48,7 +48,7 @@
 
             .project h2{
                 font-family: 'Carrois Gothic SC', sans-serif;
-                font-size: 28px;
+                font-size: 38px;
                 letter-spacing: 0.1em;
                 margin-bottom: 0.3em;
             }
@@ -61,7 +61,7 @@
 
             .project p {
                 width: 50%;
-                font-size: 16px;
+                font-size: 20px;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -76,10 +76,20 @@
 
             .item p {
                 color: #666666;
-                font-size: 16px;
+                font-size: 20px;
             }
 
             .item img {
+                width: 60%;
+                margin-top: 2em;
+                margin-bottom: 1em;
+            }
+
+            .jenswebimg {
+                display: inline;
+            }
+
+            .jenswebimg img {
                 width: 60%;
                 margin-top: 2em;
                 margin-bottom: 1em;
@@ -98,7 +108,7 @@
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                margin-top: 1em;
+                margin-top: 1.5em;
                 margin-bottom: 1em;
             }
 
@@ -114,14 +124,14 @@
 
             .btn {
                 font-family: 'Carrois Gothic SC', sans-serif;
-                font-size: 16px;
+                font-size: 20px;
                 color: #3A3835;
                 text-decoration: none;
                 border-style: double;
                 border-color: #ACA08D;
                 line-height: 50px;
                 letter-spacing: 2px;
-                padding: 15px 20px;
+                padding: 20px 25px;
             }
 
             a.btn:hover, a.btn:focus {
@@ -136,16 +146,19 @@
             }
 
             .lilred {
-                width: 38%;
+                width: 100%;
                 display: inline-block;
                 position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                height: auto;
             }
 
             .lilred img {
-                width: 100%;
+                width: 38%;
                 margin-top: 0;
-                float: left;
                 display: inline-block;
+                position: relative;
             }
 
             .mobile{
@@ -242,12 +255,16 @@
 
             .copyright {
                 font-family: 'Source Sans Pro', sans-serif;
-                font-size: 13px;
+                font-size: 15px;
                 color: #ACA08D;
                 opacity: 0.6;
             }
 
-@media (max-width: 40em) {
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
 
             header {
                 padding: 1em 0;
@@ -259,6 +276,7 @@
 
             .project h2{
                 font-size: 21px;
+                letter-spacing: 0.05em;
             }
 
             hr {
@@ -287,10 +305,22 @@
 
             iframe {
                 width: 95%;
+                height: 315px;
             }
 
-            .lilred {
-                width: 95%;
+            .btn {
+                font-size: 12px;
+                line-height: 80px;
+                padding: 10px 15px;
+            }
+
+            .btnpos {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .item .shootingstars {
+                width: 85%;
             }
 
             .mobile {
@@ -306,13 +336,278 @@
                 margin-bottom: 1em;
             }
 
-            .btn {
+            .lilred {
+                width: 95%;
+            }
+
+            .footer {
+                margin-top: 0.5em;
+            }
+
+            .copyright {
                 font-size: 12px;
-                line-height: 80px;
-                padding: 10px 15px;
+            }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+            header {
+                padding: 1em 0;
+            }
+
+            .item {
+                width: 100%;
+                margin-top: 4em;
+            }
+
+            .item p {
+                font-size: 16px;
+            }
+
+            .item img {
+                width: 80%;
+            }
+
+            .project {
+                padding: 0;
+            }
+
+            .project h2 {
+                font-size: 28px;
+                letter-spacing: 0.03em;
+            }
+
+            .project p {
+                width: 80%;
+                font-size: 16px;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding: 15px 20px;
+            }
+
+            iframe {
+                width: 95%;
+                height: 315px;
+            }
+
+            .screenshots-container {
+                width: 100%;
+            }
+
+            .screenshots-container img {
+                width: 40%;
             }
 
             .item .shootingstars {
-                width: 85%;
+                width: 60%;
+            }
+
+            .realtorAD img {
+                width: 80%;
+            }
+
+            .jens {
+                width: 80%;
+            }
+
+            .item .jenswebimg {
+                width: 60%;
+            }
+
+            .mobile img {
+                width: 60%;
+            }
+
+            .mobile-container img {
+                width: auto;
+            }
+
+            .colourpalettes img {
+                width: 40%;
+            }
+
+            .lilred img {
+                width: 45%;
+            }
+
+            .copyright {
+                font-size: 14px;
+            }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+            header {
+                padding: 1em 0;
+            }
+
+            .logo {
+                width: 15%;
+                margin-top: 0.5em;
+            }
+
+            .item {
+                width: 100%;
+                margin-top: 4.5em;
+            }
+
+            .project h2 {
+                letter-spacing: 0.03em;
+            }
+
+            .project p {
+                width: 77%;
+            }
+
+            .item p {
+                font-size: 24px;
+            }
+
+            .item img {
+                width: 75%;
+            }
+
+            .item .shootingstars {
+                width: 60%;
+            }
+
+            .jens {
+                width: 77%;
+            }
+
+            .mobile {
+                width: 50%;
+            }
+
+            .mobile-container img {
+                width: auto;
+            }
+
+            .colourpalettes img {
+                width: auto;
+            }
+
+            .origami img {
+                width: 80%;
+            }
+
+            .PC img {
+                width: 80%;
+            }
+
+            iframe {
+                width: 560px;
+                height: 315px;
+            }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+            .item {
+                width: 100%;
+                margin-top: 4.5em;
+            }
+
+            .item img {
+                width: 80%;
+            }
+
+            .project h2 {
+                letter-spacing: 0.03em;
+            }
+
+            .project p {
+                width: 80%;
+            }
+
+            iframe {
+                width: 95%;
+            }
+
+            .screenshots-container img {
+                width: 45%;
+            }
+
+            .item .shootingstars {
+                width: 50%;
+            }
+
+            .jens {
+                width: 80%;
+            }
+
+            .item .jenswebimg {
+                width: 60%;
+            }
+
+            .mobile img {
+                width: 60%;
+            }
+
+            .mobile-container img {
+                width: auto;
+            }
+
+            .colourpalettes img {
+                width: auto;
+            }
+
+            .origami img {
+                width: 80%;
+            }
+
+            .lilred img {
+                width: 40%;
+            }
+
+            .PC img {
+                width: 60%;
+            }
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+            .project {
+                padding: 0;
+            }
+
+            .project h2 {
+                font-size: 28px;
+            }
+
+            .item p {
+                font-size: 16px;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding: 15px 20px;
+            }
+
+            iframe {
+                margin-top: 1em;
+                width: 560px;
+                height: 315px;
+            }
+
+            .copyright {
+                font-size: 13px;
             }
 }
