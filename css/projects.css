@@ -199,6 +199,42 @@
                 position: relative;
             }
 
+            .skills-container {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                height: auto;
+                display: inline-block;
+                position: relative;
+                float: none;
+            }
+
+
+            .skills-container img {
+                width: 10%;
+                margin: 0.3em;
+                display: inline-block;
+                position: relative;
+            }
+
+            .aliens-container {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                height: auto;
+                display: inline-block;
+                position: relative;
+                float: none;
+            }
+
+
+            .aliens-container img {
+                width: 25%;
+                margin: 0.3em;
+                display: inline-block;
+                position: relative;
+            }
+
             .mobile-container {
                 width: 80%;
                 margin-left: auto;
@@ -319,6 +355,14 @@
                 margin-bottom: 0;
             }
 
+            .aliens-container img {
+                width: 70%;
+            }
+
+            .skills-container img {
+                width: 30%;
+            }
+
             .item .shootingstars {
                 width: 85%;
             }
@@ -404,6 +448,22 @@
                 width: 40%;
             }
 
+            .aliens-container {
+                width: 100%;
+            }
+
+            .aliens-container img {
+                width: 30%;
+            }
+
+            .skills-container {
+                width: 100%;
+            }
+
+            .skills-container img {
+                width: 20%;
+            }
+
             .item .shootingstars {
                 width: 60%;
             }
@@ -477,6 +537,22 @@
                 width: 75%;
             }
 
+            .aliens-container {
+                width: 100%;
+            }
+
+            .aliens-container img {
+                width: 30%;
+            }
+
+            .skills-container {
+                width: 100%;
+            }
+
+            .skills-container img {
+                width: 20%;
+            }
+
             .item .shootingstars {
                 width: 60%;
             }
@@ -540,6 +616,22 @@
 
             .screenshots-container img {
                 width: 45%;
+            }
+
+            .aliens-container {
+                width: 100%;
+            }
+
+            .aliens-container img {
+                width: 30%;
+            }
+
+            .skills-container {
+                width: 80%;
+            }
+
+            .skills-container img {
+                width: 20%;
             }
 
             .item .shootingstars {

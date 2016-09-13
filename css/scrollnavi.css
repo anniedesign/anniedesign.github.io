@@ -430,7 +430,8 @@
             .row4 .bbox:hover .content,
             .row5 .bbox:hover .content,
             .row6 .bbox:hover .content,
-            .row7 .bbox:hover .content {
+            .row7 .bbox:hover .content,
+            .misc1 .bbox:hover .content {
                 opacity: 1;
             }
 
@@ -442,6 +443,21 @@
             .PC {
                 width: 100%;
                 position: relative;
+            }
+
+            .misc {
+                display: block;
+                float: left;
+                width: 100%;
+            }
+
+            .misc1 {
+                width: 50%;
+                float: left;
+            }
+
+            .universecraft {
+                width: 100%;
             }
 
             #contact{
@@ -652,6 +668,10 @@
 
             .row2 {
                 width: auto;
+            }
+
+            .misc1 {
+                width: 100%;
             }
 
             #contact {

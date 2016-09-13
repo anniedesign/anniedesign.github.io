@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Universe Craft</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/AWLogo1.png" type="image/x-icon">
+        <link href='//fonts.googleapis.com/css?family=Carrois+Gothic+SC|Text+Me+One' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/projects.css">
+        <link rel="stylesheet" type="text/css" href="css/animsition.css">
+    </head>
+    <body>
+        <header>
+            <div class="animsition">
+            <a href="index.html" class="animsition-link">
+                <img class="logo" src="img/AWLogo.png" alt="Annie Wang">
+            </a>
+            </div>
+        </header>
+
+                <div class="item">
+                <div class="project">
+                    <h2>universe craft</h2>
+                    <hr>
+                    <p>Universe Craft is a shooting game for mobile platforms. <strong>My role was to create all the graphic elements, and the user interface of the game.</strong></p>
+                </div>
+
+                <div class="project">
+                    <h2>space aliens</h2>
+                    <hr>
+                </div>
+
+                <div class="aliens-container">
+                    <img src="img/Blop.png" alt="Blop" />
+                    <img src="img/SpaceMonkey.png" alt="Space Monkey" />
+                </div>
+
+                <div class="project">
+                    <h2>skills</h2>
+                    <hr>
+                </div>
+
+                <div class="skills-container">
+                    <img src="img/Lazer.png" alt="Lazer Icon" />
+                    <img src="img/Stun.png" alt="Stun Icon" />
+                    <img src="img/ScatterShot.png" alt="Scatter Shot Icon" />
+                    <img src="img/AmourPierce.png" alt="Armour Pierce Icon" />
+                    <img src="img/PoisonDart.png" alt="Poison Dart Icon" />
+                    <img src="img/MindControl.png" alt="Mind Control Icon" />
+                    <img src="img/RocketShower.png" alt="Rocket Shower Icon" />
+                    <img src="img/Barrier.png" alt="Barrier Icon" />
+                </div>
+
+                <div class="project">
+                    <h2>ultimate</h2>
+                    <hr>
+                </div>
+
+                <div class="skills-container">
+                    <img src="img/BlackHole.png" alt="Black Hole Icon" />
+                    <img src="img/ShockWave.png" alt="Shock Wave Icon" />
+                    <img src="img/TimeBomb.png" alt="Time Bomb Icon" />
+                </div>
+
+
+                <div class="project">
+                    <h2>screenshots</h2>
+                    <hr>
+                </div>
+
+                <div class="screenshots-container">
+                    <img src="img/UniverseCraft_Title_iPad.png" alt="Home" />
+                    <img src="img/UniverseCraft_GameUI_iPad.png" alt="Gameplay UI" />
+                    <img src="img/UniverseCraft_Inventory_iPad.png" alt="Inventory Screen" />
+                    <img src="img/UniverseCraft_Pause_iPad.png" alt="Pause Screen" />
+                    <img src="img/UniverseCraft_Settings_iPad.png" alt="Settings Screen" />
+                </div>
+
+                <p><strong class="strong">role: </strong>Game Graphic & Art Design</p>
+                <p><strong class="strong">year: </strong>January 2016 - March 2016</p>
+            </div>
+
+        <div>
+            <div class="btnpos">
+                    <a class="btn" href="index.html#works">
+                        view more works
+                    </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="contact">
+            <a href="https://www.behance.net/AnnieWang" onclick="target='_blank'">
+                <img src="img/behance.png" height="50" width="50" alt="Behance">
+            </a>
+            <a href="https://ca.linkedin.com/pub/annie-wang/b6/4a6/b60" onclick="target='_blank'">
+                <img src="img/linkedin.png" height="50" width="50" alt="Linkedin">
+            </a>
+            <a href="https://instagram.com/annie_ywang/" onclick="target='_blank'">
+                <img src="img/instagram.png" height="50" width="50" alt="Instagram">
+            </a>
+            <a href="https://plus.google.com/+AnnieWang92" onclick="target='_blank'">
+                <img src="img/google+.png" height="50" width="50" alt="Google+">
+            </a>
+            <p>annie.wang_@hotmail.com</p>
+            <p class="copyright">© Annie Wang 2015 - 2016</p>
+        </div>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="js/jquery.animsition.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+
+            $(".animsition").animsition({
+
+            inClass               :   'flip-in-y',
+            outClass              :   'flip-out-y',
+            inDuration            :    1500,
+            outDuration           :    800,
+            linkElement           :   '.animsition-link',
+            // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+            loading               :    true,
+            loadingParentElement  :   'body', //animsition wrapper element
+            loadingClass          :   'animsition-loading',
+            unSupportCss          : [ 'animation-duration',
+                              '-webkit-animation-duration',
+                              '-o-animation-duration'
+                            ],
+            //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+            //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+
+            overlay               :   false,
+
+            overlayClass          :   'animsition-overlay-slide',
+            overlayParentElement  :   'body'
+            });
+        });
+        </script>
+
+    </body>
+</html>
