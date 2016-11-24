@@ -141,34 +141,9 @@
                 transition: box-shadow 0.2s;
             }
 
-            .origami img {
-                margin-top: 0;
-            }
-
-            .lilred {
-                width: 100%;
-                display: inline-block;
-                position: relative;
-                margin-left: auto;
-                margin-right: auto;
-                height: auto;
-            }
-
-            .lilred img {
-                width: 38%;
-                margin-top: 0;
-                display: inline-block;
-                position: relative;
-            }
-
             .mobile{
                 width: 28.3%;
                 display: inline-block;
-            }
-
-            .PC img {
-                margin-top: 0;
-                width: 45%;
             }
 
             .feature {
@@ -194,42 +169,6 @@
 
             .screenshots-container img {
                 width: 30%;
-                margin: 0.3em;
-                display: inline-block;
-                position: relative;
-            }
-
-            .skills-container {
-                width: 80%;
-                margin-left: auto;
-                margin-right: auto;
-                height: auto;
-                display: inline-block;
-                position: relative;
-                float: none;
-            }
-
-
-            .skills-container img {
-                width: 10%;
-                margin: 0.3em;
-                display: inline-block;
-                position: relative;
-            }
-
-            .aliens-container {
-                width: 80%;
-                margin-left: auto;
-                margin-right: auto;
-                height: auto;
-                display: inline-block;
-                position: relative;
-                float: none;
-            }
-
-
-            .aliens-container img {
-                width: 25%;
                 margin: 0.3em;
                 display: inline-block;
                 position: relative;
@@ -355,14 +294,6 @@
                 margin-bottom: 0;
             }
 
-            .aliens-container img {
-                width: 70%;
-            }
-
-            .skills-container img {
-                width: 30%;
-            }
-
             .item .shootingstars {
                 width: 85%;
             }
@@ -378,10 +309,6 @@
             .colourpalettes img {
                 width: 60%;
                 margin-bottom: 1em;
-            }
-
-            .lilred {
-                width: 95%;
             }
 
             .footer {
@@ -448,28 +375,8 @@
                 width: 40%;
             }
 
-            .aliens-container {
-                width: 100%;
-            }
-
-            .aliens-container img {
-                width: 30%;
-            }
-
-            .skills-container {
-                width: 100%;
-            }
-
-            .skills-container img {
-                width: 20%;
-            }
-
             .item .shootingstars {
                 width: 60%;
-            }
-
-            .realtorAD img {
-                width: 80%;
             }
 
             .jens {
@@ -490,10 +397,6 @@
 
             .colourpalettes img {
                 width: 40%;
-            }
-
-            .lilred img {
-                width: 45%;
             }
 
             .copyright {
@@ -537,22 +440,6 @@
                 width: 75%;
             }
 
-            .aliens-container {
-                width: 100%;
-            }
-
-            .aliens-container img {
-                width: 30%;
-            }
-
-            .skills-container {
-                width: 100%;
-            }
-
-            .skills-container img {
-                width: 20%;
-            }
-
             .item .shootingstars {
                 width: 60%;
             }
@@ -571,14 +458,6 @@
 
             .colourpalettes img {
                 width: auto;
-            }
-
-            .origami img {
-                width: 80%;
-            }
-
-            .PC img {
-                width: 80%;
             }
 
             iframe {
@@ -618,22 +497,6 @@
                 width: 45%;
             }
 
-            .aliens-container {
-                width: 100%;
-            }
-
-            .aliens-container img {
-                width: 30%;
-            }
-
-            .skills-container {
-                width: 80%;
-            }
-
-            .skills-container img {
-                width: 20%;
-            }
-
             .item .shootingstars {
                 width: 50%;
             }
@@ -656,18 +519,6 @@
 
             .colourpalettes img {
                 width: auto;
-            }
-
-            .origami img {
-                width: 80%;
-            }
-
-            .lilred img {
-                width: 40%;
-            }
-
-            .PC img {
-                width: 60%;
             }
 }
 

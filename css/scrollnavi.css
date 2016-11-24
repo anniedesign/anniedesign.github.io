@@ -211,7 +211,7 @@
                 width: 50%;
             }
 
-            #works{
+            #projects{
                 background: #FFFFFF;
                 width: 100%;
                 float: left;
@@ -219,47 +219,22 @@
             }
 
             .animsition {
-                width: 80%;
-                margin-left: 12em;
-                margin-top: 3em;
-                margin-bottom: 3em;
+                margin: 3em 0 3em 0;
             }
 
             .animsition-link a:hover {
                 border-bottom: none;
             }
 
-            .column1 {
-                width: 30%;
-                display: block;
-                float: left;
-                clear: left;
-                margin: 0.25em;
-            }
-
-            .sbox1, .sbox2 {
-                overflow: hidden;
+            .project-1,
+            .project-2,
+            .project-3,
+            .project-4,
+            .project-5,
+            .project-6 {
+                width: 25%;
                 position: relative;
-                float: left;
                 display: inline-block;
-            }
-
-            .sbox1 img, .sbox2 img {
-                width: 100%;
-                position: relative;
-            }
-
-            .column2 {
-                width: 22%;
-                display: inline-block;
-                float: left;
-                margin: 0.25em;
-            }
-
-            .column3 {
-                width: 26.6%;
-                display: inline-block;
-                float:left;
                 margin: 0.25em;
             }
 
@@ -270,97 +245,19 @@
                 height: auto;
             }
 
-            .row1 {
-                width: 29.4%;
-                display: block;
-                float: left;
-                margin: 0.25em;
-            }
 
-            .row2 {
-                width: 50%;
-                display: block;
-                float: left;
-                margin: 0.25em;
-            }
-
-            .row3 {
-                width: 38.5%;
-                position: relative;
-                display: inline-block;
-                float: left;
-                margin: 0.25em;
-            }
-
-            .row3 img {
+            .project-1 img,
+            .project-2 img,
+            .project-3 img,
+            .project-4 img,
+            .project-5 img,
+            .project-6 img {
                 width: 100%;
                 display: block;
             }
 
-            .row4 {
-                width: 40.8%;
-                position: relative;
-                display: inline-block;
-                float: left;
-                margin: 0.25em;
-            }
-
-            .row4 img {
-                width: 100%;
-                display: block;
-            }
-
-            .row5 {
-                width: 80.1%;
-                position: relative;
-                display: inline-block;
-                float: left;
-                margin: 0.25em;
-            }
-
-            .row5 img {
-                width: 100%;
-                display: block;
-            }
-
-            .row6 {
-                width: 38.5%;
-                position: relative;
-                display: inline-block;
-                float: left;
-                margin: 0.25em;
-            }
-
-            .row6 img {
-                width: 100%;
-                display: block;
-            }
-
-            .row7 {
-                width: 40.8%;
-                position: relative;
-                display: inline-block;
-                float: left;
-                margin: 0.25em;
-            }
-
-            .row7 img {
-                width: 100%;
-                display: block;
-            }
-
-            .lilred {
-                width: 100%;
-                position: relative;
-            }
-
-            .origami {
-                width: 100%;
-                position: relative;
-            }
-
-            .content {
-                background: #B6A2C6;
+            .hover-caption-box {
+                background: rgba(123,149,172, .8);
                 color: white;
                 left: 0;
                 top: 0;
@@ -375,89 +272,37 @@
                 transition: opacity 500ms;
             }
 
-            .sbox2 .content {
-                background: #A6E8FA;
-            }
-
-            .row1 .content {
-                background: #A2C6C4;
-            }
-
-            .row2 .content {
-                background: #A2C6C4;
-            }
-
-            .row3 .content {
-                background: #A2C6C4;
-            }
-
-            .row7 .content {
-                background: #A6E8FA;
-            }
-
-            .content h3 {
-                font-family: 'Carrois Gothic SC', sans-serif;
+            .hover-caption-box h3 {
+                font-family: 'Source Sans Pro', sans-serif;
                 font-weight: 600;
                 letter-spacing: 0.05em;
                 -webkit-font-smoothing: antialiased;
             }
 
-            .content p {
+            .hover-caption-box p {
                 font-family: 'Text Me One', sans-serif;
                 font-size: 18px;
                 text-transform: none;
             }
 
-            .content div {
+            .caption {
                 position: absolute;
                 top: 0;
                 bottom: 0;
                 left: 0;
                 right: 0;
                 width: 100%;
-                height: 30%;
+                height: 10%;
                 margin: auto;
             }
 
-            .column1 .sbox1:hover .content,
-            .column1 .sbox2:hover .content,
-            .column2 .bbox:hover .content,
-            .column3 .bbox:hover .content,
-            .row1 .bbox:hover .content,
-            .row2 .bbox:hover .content,
-            .row3 .bbox:hover .content,
-            .row4 .bbox:hover .content,
-            .row5 .bbox:hover .content,
-            .row6 .bbox:hover .content,
-            .row7 .bbox:hover .content,
-            .misc1 .bbox:hover .content {
+            .project-1 .bbox:hover .hover-caption-box,
+            .project-2 .bbox:hover .hover-caption-box,
+            .project-3 .bbox:hover .hover-caption-box,
+            .project-4 .bbox:hover .hover-caption-box,
+            .project-5 .bbox:hover .hover-caption-box,
+            .project-6 .bbox:hover .hover-caption-box {
                 opacity: 1;
-            }
-
-            .shattered {
-                width: 100%;
-                position: relative;
-            }
-
-            .PC {
-                width: 100%;
-                position: relative;
-            }
-
-            .misc {
-                display: block;
-                float: left;
-                width: 100%;
-                letter-spacing: 0.4em;
-            }
-
-            .misc1 {
-                width: 50%;
-                float: left;
-            }
-
-            .universecraft {
-                width: 100%;
             }
 
             #contact{
@@ -567,6 +412,7 @@
 
             .logo {
                 width: 60%;
+                margin-top: 2em;
                 margin-left: 0.5em;
                 margin-right: 0.5em;
             }
@@ -622,58 +468,21 @@
                 margin-bottom: 0.5em;
             }
 
-            #works .animsition {
+            #projects .animsition {
                 width: 90%;
                 margin-left: 0;
+                margin-right: 0;
                 margin-top: 2em;
                 margin-bottom: 1em;
             }
 
-            .row5 {
-                margin-top: 1em;
+            .project-1,
+            .project-2,
+            .project-3,
+            .project-4,
+            .project-5,
+            .project-6 {
                 width: auto;
-            }
-
-            .row6 {
-                width: auto;
-            }
-
-            .row4 {
-                width: auto;
-            }
-
-            .row7 {
-                width: auto;
-            }
-
-            .row3 {
-                width: auto;
-            }
-
-            .column1 {
-                width: 98%;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            .column2 {
-                width: 42.5%;
-            }
-
-            .column3 {
-                width: 49%;
-            }
-
-            .row1 {
-                width: auto;
-            }
-
-            .row2 {
-                width: auto;
-            }
-
-            .misc1 {
-                width: 100%;
             }
 
             #contact {
@@ -705,7 +514,6 @@
             #backtotop, .backtotop {
                 visibility: hidden;
             }
-
 }
 
 @media only screen 
@@ -758,23 +566,18 @@
             }
 
             .animsition {
-                margin-left: 3.5em;
+                width: 90%;
+                margin: 3em 0 3em 0;
             }
 
-            .row5 {
-                width: 81.5%;
-            }
-
-            .column1 {
-                width: 29.2%;
-            }
-
-            .column2 {
-                width: 21.5%;
-            }
-
-            .column3 {
-                width: 26.5%;
+            .project-1,
+            .project-2,
+            .project-3,
+            .project-4,
+            .project-5,
+            .project-6 {
+                width: 48%;
+                margin: 0.1em;
             }
 
             #contact {
@@ -796,6 +599,10 @@
 
             .copyright {
                 font-size: 14px;
+            }
+
+            #backtotop, .backtotop {
+                visibility: hidden;
             }
 }
 
@@ -829,29 +636,17 @@
             }
 
             .animsition {
-                width: 80%;
-                margin-top: 3em;
-                margin-bottom: 4.5em;
-                margin-left: 4.5em;
+                width: auto;
+                margin: 3em 0 3em 0;
             }
 
-            .row5 {
-                width: 81.1%;
-            }
-
-            .column3 {
-                width: 25.5%;
-            }
-
-            .row1 {
-                width: 29.8%;
-                float: none;
-            }
-
-            .row2 {
-                width: 50.8%;
-                margin: 0;
-                margin-left: 0.25em;
+            .project-1,
+            .project-2,
+            .project-3,
+            .project-4,
+            .project-5,
+            .project-6 {
+                width: 40%;
             }
 
             .contactmsg {
@@ -907,40 +702,16 @@
             }
 
             .animsition {
-                width: 80%;
-                margin-top: 3em;
-                margin-left: 5.5em;
+                margin: 3em 0 3em 0;
             }
 
-            .row5 {
-                width: 81.4%;
-            }
-
-            .row6 {
-                width: 38.8%;
-            }
-
-            .row4 {
-                width: 41.1%;
-            }
-
-            .row7 {
-                width: 41.1%;
-            }
-
-            .row3 {
-                width: 38.8%;
-            }
-
-            .row1 {
-                width: 30%;
-                float: none;
-            }
-
-            .row2 {
-                width: 50.8%;
-                margin: 0;
-                margin-left: 0.25em;
+            .project-1,
+            .project-2,
+            .project-3,
+            .project-4,
+            .project-5,
+            .project-6 {
+                width: 28%;
             }
     }
 
@@ -983,19 +754,6 @@
 
             .title {
                 font-size: 12px;
-            }
-
-            .animsition {
-                width: 70%;
-                margin-left: 7em;
-            }
-
-            .row5 {
-                width: 80.5%;
-            }
-
-            .column1 {
-                width: 29.4%;
             }
 
             #contact {
