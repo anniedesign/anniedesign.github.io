@@ -8,7 +8,7 @@
             header {
                 width: 100%;
                 position: absolute;
-                padding: 1.5em 0;
+                padding: 1em 0;
                 left: 0;
                 top: 0;
                 background-color: #F9F1E4;
@@ -29,9 +29,35 @@
                 width: 70%;
             }
 
-            .strong {
+            .project-meta {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 21px;
+                color: #fdbe87;
+                right: 0;
+                margin-top: 0.5em;
+                margin-right: 5em;
+                text-align: left;
+                line-height: 15px;
+                position: fixed;
+            }
+
+/*            .strong {
                 font-family: 'Carrois Gothic SC', sans-serif;
                 letter-spacing: 0.1em;
+            }*/
+
+            .image-list {
+                width: 70%;
+                position: relative;
+                display: block;
+                margin-top: 8.5em;
+                padding: 1em 3.5em 0;
+            }
+
+            .image-list img {
+                width: 100%;
+                margin-top: 0;
+                margin-bottom: 0.5em;
             }
 
             .project {
@@ -105,10 +131,12 @@
             }
 
             iframe {
+                width: 100%;
+                height: 749px;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                margin-top: 1.5em;
+                margin-top: 0;
                 margin-bottom: 1em;
             }
 
@@ -129,15 +157,15 @@
                 text-decoration: none;
                 border-style: double;
                 border-color: #ACA08D;
-                line-height: 50px;
+                line-height: 100px;
                 letter-spacing: 2px;
                 padding: 20px 25px;
             }
 
             a.btn:hover, a.btn:focus {
                 border-style: solid;
-                border-color: #A295AC;
-                box-shadow: inset 0 0 0 2.5px #A295AC;
+                border-color: #fdbe87;
+                box-shadow: inset 0 0 0 2.5px #fdbe87;
                 transition: box-shadow 0.2s;
             }
 
@@ -201,7 +229,7 @@
                 width: 100%;
                 position: absolute;
                 background-color: #F9F1E4;
-                margin-top: 1.5em;
+                margin-top: 1em;
                 padding: 0.5em;
                 left: 0;
                 -webkit-box-sizing: border-box;
@@ -242,11 +270,31 @@
   and (orientation: portrait) {
 
             header {
-                padding: 1em 0;
+                padding: 0.3em 0;
             }
 
             .logo {
-                width: 30%;
+                width: 25%;
+            }
+
+            .project-meta {
+                font-size: 12px;
+                margin-top: 8.5em;
+                margin-right: 0;
+                text-align: center;
+                line-height: 10px;
+                position: relative;
+            }
+
+            .image-list {
+                width: auto;
+                margin-top: 0.5em;
+                padding: 0;
+            }
+
+            .image-list img {
+                margin-top: 0;
+                margin-bottom: 0;
             }
 
             .project h2{
@@ -279,18 +327,18 @@
             }
 
             iframe {
-                width: 95%;
-                height: 315px;
+                height: 202px;
+                margin-bottom: 0.3em;
             }
 
             .btn {
                 font-size: 12px;
-                line-height: 80px;
+                line-height: 50px;
                 padding: 10px 15px;
             }
 
             .btnpos {
-                margin-top: 0;
+                margin-top: 0.3em;
                 margin-bottom: 0;
             }
 
@@ -315,6 +363,13 @@
                 margin-top: 0.5em;
             }
 
+            .contact img {
+                width: 10%;
+                height: 10%;
+                margin-left: 0.5em;
+                margin-right: 0.5em;
+            }
+
             .copyright {
                 font-size: 12px;
             }
@@ -327,7 +382,31 @@
   and (orientation: landscape) {
 
             header {
-                padding: 1em 0;
+                padding: 0.3em 0;
+            }
+
+            .logo {
+                width: 15%;
+            }
+
+            .project-meta {
+                font-size: 12px;
+                margin-top: 9em;
+                margin-right: 0;
+                text-align: center;
+                line-height: 10px;
+                position: relative;
+            }
+
+            .image-list {
+                width: auto;
+                margin-top: 0.5em;
+                padding: 0;
+            }
+
+            .image-list img {
+                margin-top: 0;
+                margin-bottom: 0;
             }
 
             .item {
@@ -358,13 +437,19 @@
             }
 
             .btn {
-                font-size: 16px;
+                font-size: 14px;
                 padding: 15px 20px;
+                line-height: 70px;
+            }
+
+            .btnpos {
+                margin-top: 1em;
+                margin-bottom: 0;
             }
 
             iframe {
-                width: 95%;
-                height: 315px;
+                height: 367px;
+                margin-bottom: 0.3em;
             }
 
             .screenshots-container {
@@ -399,6 +484,13 @@
                 width: 40%;
             }
 
+            .contact img {
+                width: 6%;
+                height: 6%;
+                margin-left: 0.4em;
+                margin-right: 0.4em;
+            }
+
             .copyright {
                 font-size: 14px;
             }
@@ -411,12 +503,31 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
             header {
-                padding: 1em 0;
+                padding: 0.5em 0;
             }
 
             .logo {
-                width: 15%;
+                width: 20%;
                 margin-top: 0.5em;
+            }
+
+            .project-meta {
+                margin-top: 8.5em;
+                margin-right: 0;
+                text-align: center;
+                position: relative;
+            }
+
+            .image-list {
+                width: auto;
+                margin-top: 1em;
+                padding: 0;
+            }
+
+            .image-list img {
+                width: 100%;
+                margin-top: 0;
+                margin-bottom: 0;
             }
 
             .item {
@@ -461,8 +572,13 @@
             }
 
             iframe {
-                width: 560px;
-                height: 315px;
+                width: 100%;
+                height: 423px;
+                margin-bottom: 0.3em;
+            }
+
+            .footer {
+                margin-top: 0.3em;
             }
 }
 
@@ -471,6 +587,33 @@
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
+
+            header {
+                padding: 0.5em 0;
+            }
+
+            .project-meta {
+                font-size: 14px;
+                margin-top: 1em;
+                margin-right: 2em;
+                line-height: 10px;
+            }
+
+            .btn {
+                font-size: 16px;
+                line-height: 75px;
+                letter-spacing: 1px;
+                padding: 15px 15px;
+            }
+
+            .image-list {
+                margin-top: 4em;
+                padding: 1em 1em 0;
+            }
+
+            .image-list img {
+                margin-bottom: 0.2em;
+            }
 
             .item {
                 width: 100%;
@@ -490,7 +633,8 @@
             }
 
             iframe {
-                width: 95%;
+                height: 400px;
+                margin-bottom: 0.5em;
             }
 
             .screenshots-container img {
@@ -520,12 +664,38 @@
             .colourpalettes img {
                 width: auto;
             }
+
+            .btnpos {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .footer {
+                margin-top: 0.5em;
+            }
 }
 
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
+            .project-meta {
+                font-size: 14px;
+                margin-top: 1em;
+                margin-right: 7em;
+            }
+
+            .image-list {
+                width: 65%;
+                margin-top: 6.5em;
+                padding: 1em 2.5em 0;
+            }
+
+            .image-list img {
+                margin-top: 0;
+                margin-bottom: 0.3em;
+            }
 
             .project {
                 padding: 0;
@@ -545,9 +715,13 @@
             }
 
             iframe {
-                margin-top: 1em;
-                width: 560px;
-                height: 315px;
+                width: 100%;
+                height: 487px;
+                margin-bottom: 0.5em;
+            }
+
+            .footer {
+                margin-top: 0.5em;
             }
 
             .copyright {
